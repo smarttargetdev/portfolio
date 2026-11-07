@@ -65,16 +65,16 @@
     $('ctaContact').textContent = u.contact;
     $('heroCode').innerHTML =
       `<span class="k">public class</span> <span class="t">Osvandir</span> {\n` +
-      `  <span class="k">string</span> Role  = <span class="s">"Software Architect"</span>;\n` +
-      `  <span class="k">string[]</span> Stack = [\n` +
-      `    <span class="k">".NET",</span>\n` +
-      `    <span class="k">"C#",</span>\n` +
-      `    <span class="k">"Angular",</span>\n` +
-      `    <span class="k">"React"</span>\n` +
+      `  <span class="k">string</span> Role = <span class="s">"Software Architect"</span>;\n` +
+      `  <span class="k">string[]</span> Stack = <span class="k">[</span>\n` +
+      `    <span class="s">".NET"</span>,\n` +
+      `    <span class="s">"C#"</span>,\n` +
+      `    <span class="s">"Angular"</span>,\n` +
+      `    <span class="s">"React"</span>\n` +
       `  <span class="k">]</span>;\n` +
-      `  <span class="k">string</span> City  = <span class="s">"São Caetano do Sul"</span>;\n` +
-      `  <span class="k">int</span>    Experience = <span class="s">30</span>;\n` +
-      `  <span class="k">bool</span>   Hiring = <span class="k">true</span>;\n}<span class="caret"></span>`;
+      `  <span class="k">string</span> City = <span class="s">"São Caetano do Sul"</span>;\n` +
+      `  <span class="k">int</span> Experience = <span class="s">30</span>;\n` +
+      `  <span class="k">bool</span> Hiring = <span class="k">true</span>;\n}<span class="caret"></span>`;
     $('heroStats').innerHTML = u.stats.map((s, i) => `<div><dt>${esc(s)}</dt><dd>${esc(u.statsV[i])}</dd></div>`).join('');
 
     // sobre
