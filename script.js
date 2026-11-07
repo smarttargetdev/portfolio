@@ -66,7 +66,7 @@
     $('heroCode').innerHTML =
       `<span class="k">public class</span> <span class="t">Osvandir</span> {\n` +
       `  <span class="k">string</span> Role  = <span class="s">"Software Architect"</span>;\n` +
-      `  <span class="k">string[]</span> Stack = <span class="s">[\n` +
+      `  <span class="k">string[]</span> Stack = [\n` +
       `    <span class="k">".NET",</span>\n` +
       `    <span class="k">"C#",</span>\n` +
       `    <span class="k">"Angular",</span>\n` +
