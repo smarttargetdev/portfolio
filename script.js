@@ -66,9 +66,9 @@
     $('heroCode').innerHTML =
       `<span class="k">public class</span> <span class="t">Osvandir</span> {\n` +
       `  <span class="k">string</span> Role  = <span class="s">"Software Architect"</span>;\n` +
-      `  <span class="k">string</span> Stack = <span class="s">".NET / C++ / Angular"</span>;\n` +
+      `  <span class="k">string[]</span> Stack = <span class="s">[ ".NET", "C#", "Angular", "React" ]</span>;\n` +
       `  <span class="k">string</span> City  = <span class="s">"São Caetano do Sul"</span>;\n` +
-      `  <span class="k">int</span>    Years = <span class="s">30</span>;\n` +
+      `  <span class="k">int</span>    Experience = <span class="s">30</span>;\n` +
       `  <span class="k">bool</span>   Hiring = <span class="k">true</span>;\n}<span class="caret"></span>`;
     $('heroStats').innerHTML = u.stats.map((s, i) => `<div><dt>${esc(s)}</dt><dd>${esc(u.statsV[i])}</dd></div>`).join('');
 
