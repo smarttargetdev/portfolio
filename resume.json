@@ -101,7 +101,7 @@
         },
         {
           "name": { "pt-BR": "Tecnologias", "en-US": "Technologies" },
-          "items": { "pt-BR": "Web Services, WCF, REST, WebAPI, LINQ, Linq Expressions, Entity Framework, NHibernate, Spring Framework, Aspect, JWT, Boost, FIX, IPC, DDE, ActiveX, GAC, COM, COM, Threading e Sockets", "en-US": "Web Services, WCF, REST, WebAPI, LINQ, LINQ Expressions, Entity Framework, NHibernate, Spring Framework, AOP, JWT, Boost, FIX, IPC, DDE, ActiveX, GAC, COM, COM+, Threading, and Sockets" }
+          "items": { "pt-BR": "Web Services, WCF, REST, WebAPI, LINQ, Linq Expressions, Entity Framework, NHibernate, Spring Framework, Aspect, JWT, Boost, FIX, IPC, DDE, ActiveX, GAC, COM, COM+, Threading e Sockets", "en-US": "Web Services, WCF, REST, WebAPI, LINQ, LINQ Expressions, Entity Framework, NHibernate, Spring Framework, AOP, JWT, Boost, FIX, IPC, DDE, ActiveX, GAC, COM, COM+, Threading, and Sockets" }
         },
         {
           "name": { "pt-BR": "Armazenamento", "en-US": "Data Storage" },
