@@ -13,7 +13,7 @@
       lead: 'Mais de 30 anos transformando processos corporativos em sistemas confiáveis: do firmware ao micro-frontend, do mercado financeiro ao chão de fábrica.',
       work: 'Ver experiência →', contact: 'Entrar em contato',
       stats: ['Experiência', 'Stack', 'Local', 'Status'],
-      statsV: ['30+ anos', '.NET, C#, Angular, React', 'São Caetano do Sul, SP', 'Aberto a propostas'],
+      statsV: ['+30 anos', '.NET, C#, Angular, React', 'São Caetano do Sul, SP', 'Aberto a propostas'],
       about: 'Sobre', stack: 'Stack técnico', exp: 'Trajetória', sum: 'Resumo de qualificações',
       edu: 'Formação e idiomas', degrees: 'Formação', langs: 'Idiomas', cont: 'Vamos conversar',
       contLead: 'Aberto a propostas, colaborações e papo técnico.',
