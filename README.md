@@ -1,1 +1,1 @@
-# portfolio
+# Portal for "smarttarget.com.br" domain
