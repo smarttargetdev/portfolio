@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Osvandir Júnior – Engenheiro de Software</title>
+  <meta name="description" content="Portfólio de Osvandir Alves da Silva Júnior — Engenheiro de Software sênior: .NET, C#, C++, Python, agentes de IA e cloud, com mais de 30 anos de experiência.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Osvandir Júnior – Engenheiro de Software">
+  <meta property="og:description" content="Portfólio de Osvandir Alves da Silva Júnior — Engenheiro de Software sênior: .NET, C#, C++, Python, agentes de IA e cloud, com mais de 30 anos de experiência.">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234cc2ff'/%3E%3Ctext x='32' y='44' font-family='monospace' font-size='38' font-weight='700' text-anchor='middle' fill='%230d1117'%3EO%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a class="brand" href="#hero" aria-label="Início"><span class="logo">O</span><span id="brandName">Osvandir Júnior</span></a>
+    <nav id="navLinks" class="links" aria-label="Principal"></nav>
+    <div class="tools">
+      <button id="langBtn" class="pill" type="button" aria-label="Idioma">PT | EN</button>
+      <button id="themeBtn" class="pill" type="button" aria-label="Alternar tema">☀</button>
+      <button id="menuBtn" class="pill menu-btn" type="button" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero wrap">
+      <div class="hero-text">
+        <p class="tag" id="heroTag"></p>
+        <h1 id="heroTitle"></h1>
+        <p class="lead" id="heroLead"></p>
+        <div class="cta">
+          <a class="btn primary" href="#experience" id="ctaWork"></a>
+          <a class="btn" href="#contact" id="ctaContact"></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img class="avatar" src="assets/foto.webp" alt="Osvandir Alves da Silva Júnior" width="230" height="230" decoding="async">
+        <div class="code" aria-hidden="true">
+          <div class="code-bar"><i></i><i></i><i></i><span>osvandir.cs</span></div>
+          <pre id="heroCode"></pre>
+        </div>
+      </div>
+      <dl class="stats" id="heroStats"></dl>
+    </section>
+
+    <section id="about" class="wrap">
+      <h2 class="sec"><small>01 /</small><span id="tAbout"></span></h2>
+      <p class="sub" id="sAbout"></p>
+      <div class="about-grid">
+        <div class="prose" id="aboutText"></div>
+        <aside><h3 id="tResumo"></h3><dl class="facts" id="aboutFacts"></dl></aside>
+      </div>
+      <div class="areas" id="aboutAreas"></div>
+    </section>
+
+    <section id="stack" class="wrap">
+      <h2 class="sec"><small>02 /</small><span id="tStack"></span></h2>
+      <p class="sub" id="sStack"></p>
+      <div class="stack-grid" id="stackGrid"></div>
+    </section>
+
+    <section id="work" class="wrap">
+      <h2 class="sec"><small>03 /</small><span id="tWork"></span></h2>
+      <p class="sub" id="sWork"></p>
+      <div class="proj-grid" id="projGrid"></div>
+    </section>
+
+    <section id="edu" class="wrap">
+      <h2 class="sec"><small>04 /</small><span id="tEdu"></span></h2>
+      <p class="sub" id="sEdu"></p>
+      <div class="edu-grid">
+        <div><h3 id="tDegrees"></h3><ul class="plain" id="eduList"></ul></div>
+        <div><h3 id="tLangs"></h3><ul class="plain" id="langList"></ul></div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h2 class="sec"><small>05 /</small><span id="tContact"></span></h2>
+      <a class="mail" id="mailBig" href="#"></a>
+      <p class="lead" id="contactLead"></p>
+      <p class="phones" id="phones"></p>
+      <div class="cta" id="contactBtns"></div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span id="footL"></span>
+    <span id="footR"></span>
+  </footer>
+
+  <!-- Terminal -->
+  <button id="termFab" class="fab" type="button" aria-label="Abrir terminal"><kbd>`</kbd> terminal</button>
+  <div id="term" class="term" role="dialog" aria-label="Terminal" hidden>
+    <div class="term-bar">
+      <span><i></i><i></i><i></i></span>
+      <b>osvandir@portfolio ~ %</b>
+      <button id="termClose" type="button" aria-label="Fechar terminal">✕</button>
+    </div>
+    <div id="termOut" class="term-out" aria-live="polite"></div>
+    <form id="termForm" class="term-in" autocomplete="off">
+      <label for="termInput" id="termPrompt">osvandir@portfolio:~$</label>
+      <input id="termInput" type="text" spellcheck="false" autocapitalize="off" autocomplete="off">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
