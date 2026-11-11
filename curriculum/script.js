@@ -349,7 +349,7 @@
     bindTerminal();
     setTheme(store.get('theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
     try {
-      const res = await fetch('resume.json');
+      const res = await fetch('/datum/resume.json');
       if (!res.ok) throw new Error(res.status);
       R = await res.json();
     } catch (err) {
