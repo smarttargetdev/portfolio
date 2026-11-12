@@ -102,7 +102,7 @@
         },
         {
           "name": {
-            "pt-BR": "Agentes de IA",
+            "pt-BR": "Agentes e Ferramentas de IA",
             "en-US": "AI Agents & Tools"
           },
           "items": {
@@ -132,7 +132,7 @@
         },
         {
           "name": {
-            "pt-BR": "Ambientes",
+            "pt-BR": "Ambientes de Desenvolvimento",
             "en-US": "Development Environments"
           },
           "items": {
@@ -405,7 +405,7 @@
           "highlights": [
             {
               "pt-BR": "Desenvolvimento de subsistema de sincronização de senhas entre baixa (IBM AS400) e alta plataforma através de enfileiramento de mensagens (IBM MQ Series) em C# .Net Core e armazenamento de dados em banco SQL Server 2014, provendo coleta e tratamento de logs para o Splunk.",
-              "en-US": "Developed a password synchronization subsystem between the legacy (IBM AS/400) and mainstream platforms using message queuing (IBM MQ Series), built in C# .NET Core with data storage in SQL Server 2014, and provided log collection and processing for Splunk."
+              "en-US": "Developed a password synchronization subsystem between the low-end (IBM AS/400) and high-end platforms using message queuing (IBM MQ Series), built in C# .NET Core with data storage in SQL Server 2014, and provided log collection and processing for Splunk."
             },
             {
               "pt-BR": "Desenvolvimento de webapi para sistema de gestão de remessa de numerários para caixa eletrônico e gestão de carro forte, em C# .Net Core utilizando armazenamento de dados em AWS (RDS).",
@@ -513,7 +513,7 @@
           "highlights": [
             {
               "pt-BR": "Manutenção de sistemas internos (gestão de materiais e pedidos, comissionamento, gerenciamento de rebates, sistema de custos), programados em C#, VB.Net e VB6, com armazenamento de dados em servidor SQL Server 2015.",
-              "en-US": "Maintained internal systems (materials and order management, commissioning, rebate management, and costing) built in C#, VB.NET, and VB6, with data storage on a SQL Server 2015 database."
+              "en-US": "Maintained internal systems (materials and order management, sales commissions, rebate management, and costing) built in C#, VB.NET, and VB6, with data storage on a SQL Server 2015 database."
             },
             {
               "pt-BR": "Desenvolvimento de aplicativo de gerenciamento e billing de serviços em nuvem (Office 365, Azure e SharePoint) provendo integração ao sistema Microsoft Partner, programado em C# ASP.Net, utilizando padrão MVC, com armazenamento de dados em servidor Azure SQL Server.",
@@ -613,11 +613,11 @@
           "highlights": [
             {
               "pt-BR": "Desenvolvimento de sistema de integração (estoque, financeiro e contábil) com logística e ERP (Protheus) do projeto Galera Animal da Nestlé, programado em C# e SQL Server Integration Services (SSIS), executando a integração através de servidores FTP e arquivos CSV.",
-              "en-US": "Developed an integration system (inventory, finance, and accounting) linking logistics and ERP (Protheus) for Nestlé's 'Galera Animal' loyalty program project, built in C# and SQL Server Integration Services (SSIS), with integration carried out via FTP servers and CSV files."
+              "en-US": "Developed an integration system (inventory, finance, and accounting) linking logistics and ERP (Protheus) for Nestlé's 'Galera Animal' project, built in C# and SQL Server Integration Services (SSIS), with integration carried out via FTP servers and CSV files."
             },
             {
               "pt-BR": "Desenvolvimento de sistema de gerenciamento e bonificação de transações de campanhas de cartão de crédito da bandeira Aura, programado em C# utilizando serviços Windows e com interface visual em ASP.NET, com armazenamento de dados em servidor SQL Server 2008 (fazendo uso de bulk operations), contando também com automação de shell SSH (para transferência de arquivos para servidores UNIX através de SFTP).",
-              "en-US": "Developed a management and rewards-bonus system for Aura credit card campaign transactions, built in C# using Windows Services with an ASP.NET front end, data storage on SQL Server 2008 (using bulk operations), and SSH shell automation for transferring files to UNIX servers via SFTP."
+              "en-US": "Developed a system for managing and awarding bonuses on Aura credit card campaign transactions, built in C# using Windows Services with an ASP.NET front end, data storage on SQL Server 2008 (using bulk operations), and SSH shell automation for transferring files to UNIX servers via SFTP."
             },
             {
               "pt-BR": "Desenvolvimento de web-services para integração de e-commerce com o sistema logístico e o ERP (Protheus) programado em C#, utilizando WCF.",
@@ -652,7 +652,7 @@
             },
             {
               "pt-BR": "Desenvolvimento de componente COM para comunicação com web-services da Secretaria da Fazenda, contemplando validação de XML contra esquemas XSD, assinatura de XML e transformação de XML através de XSLT, programado em C#, utilizando .Net Interop Services para expor objetos gerenciados ao ambiente nativo COM.",
-              "en-US": "Developed a COM component for communicating with the State Treasury Department's (Secretaria da Fazenda) web services, covering XML validation against XSD schemas, XML digital signing, and XML transformation via XSLT — built in C# using .NET Interop Services to expose managed objects to the native COM environment."
+              "en-US": "Developed a COM component for communicating with the State Finance Department's (Secretaria da Fazenda) web services, covering XML validation against XSD schemas, XML digital signing, and XML transformation via XSLT — built in C# using .NET Interop Services to expose managed objects to the native COM environment."
             },
             {
               "pt-BR": "Desenvolvimento de sistema de rastreamento de automóveis da CAOA para plataforma móvel (Windows Mobile/CE), com arquitetura SOA, programado em C# e C++, utilizando web-services como entrypoint do aplicativo e armazenamento de dados em servidor Oracle 10g.",

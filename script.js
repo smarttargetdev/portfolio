@@ -14,19 +14,18 @@
       lead: 'Engenheiro de software sênior especializado em .NET, C#, C++, Python, agentes de IA e cloud (AWS/Azure/GCP/Cloudflare) com mais de 30 anos de experiência em desenvolvimento no setor bancário e no mercado financeiro, além de indústria e pesquisa tecnológica — construindo microsserviços e sistemas críticos.',
       work: 'Ver projetos →', contact: 'Entrar em contato',
       stats: ['Experiência', 'Stack', 'Local', 'Status'],
-      statsV: ['+30 anos', '.NET · C# · C++ · IA · Cloud', 'São Caetano do Sul, SP', '● Aberto a propostas'],
+      statsV: ['+30 anos', '.NET · C# · Python · IA · Cloud', 'São Caetano do Sul, SP', '● Aberto a propostas'],
       role: 'Engenheiro de Software', city: 'São Caetano do Sul, BR',
       about: 'Sobre', aboutS: '',
       aboutP: [
         'Desenvolvedor com mais de 30 anos de atuação na engenharia, arquitetura e desenvolvimento de soluções computacionais de alta complexidade e missão crítica.',
         'Tendo sólida formação teórica e grande experiência, meu perfil une visão estratégica de arquitetura de software, desenvolvimento full stack, engenharia de baixo nível (drivers, firmwares e RTOS), desenvolvimento de sistemas distribuídos, microsserviços, ecossistemas em nuvem e inteligência artificial.',
-        'Ao longo da minha carreira, especializei-me na criação de sistemas para o setor bancário e mercado financeiro (Itaú, Easyinvest, BM&F/B3), além de conduzir projetos para órgãos governamentais (FIESP, FAPESP, SSP-SP, Secretarias da Educação e da Cultura), setores comerciais e industriais, além de soluções de tecnologia assistiva.',
+        'Ao longo da minha carreira, especializei-me na criação de sistemas para o setor bancário e mercado financeiro (Itaú, Easyinvest, BM&F/B3), além de conduzir projetos para órgãos governamentais (FIESP, FAPESP, SSP-SP, Secretarias da Educação e da Cultura), setores comerciais e industriais e soluções de tecnologia assistiva.',
       ],
       resumo: 'Em resumo',
-      facts: [['Local', 'São Caetano do Sul – SP'], ['Foco', '.NET · C++ · Python · Agentes de IA · Cloud'], ['Idiomas', 'Português · Inglês'], ['Experiência', '+30 anos']],
+      facts: [['Local', 'São Caetano do Sul – SP'], ['Foco', '.NET · C# · Python · IA · Cloud'], ['Idiomas', 'Português · Inglês'], ['Experiência', '+30 anos']],
       areas: [
-        ['Bancário e mercado financeiro', 'Itaú, Easyinvest, Banco Alfa e B3: sincronização de senhas entre AS400 e alta plataforma via IBM MQ, remessa de numerário para caixas eletrônicos, sistema de investimentos de renda fixa e variável, autorização com JWT e sustentação de sistemas de negociação na B3.'],
-        ['.NET e C++', 'Back-end em C# e .NET Core (WebAPI, WCF, Entity Framework) e C/C++ de baixo nível: Win32, drivers, threading e IPC.'],
+        ['Backend e Frontend', 'Back-end em C# e .NET Core (WebAPI, WCF, Entity Framework) e C/C++ de baixo nível: Win32, drivers, threading e IPC. Front-end com Angular, React e micro-frontends, HTML5, CSS3, Blazor e Razor.'],
         ['Python e IA', 'Pesquisa na FAPESP com Python e TensorFlow (voz para LIBRAS em FPGAs e NPUs) e uso de agentes de IA como OpenAI, Claude, Gemini e n8n.'],
         ['Cloud e microsserviços', 'AWS (RDS, S3, EC2), Azure e GCP; microsserviços, micro-frontends, Docker, Kubernetes e CI/CD.'],
         ['Dados', 'SQL Server, Oracle, MySQL e MongoDB: procedures, triggers, transações e bulk operations.'],
@@ -42,15 +41,17 @@
       fixo: 'fixo', copy: 'Copiar e-mail', copied: 'E-mail copiado!', cv: 'Currículo',
       footL: 'Construído com HTML, CSS, JavaScript e bastante café.', footR: 'Pressione ` para abrir o terminal',
       cur: 'Atual',
+      aria: { home: 'Início', main: 'Principal', lang: 'Idioma', theme: 'Alternar tema', menu: 'Menu', open: 'Abrir terminal', term: 'Terminal', close: 'Fechar terminal' },
+      metaDesc: 'Portfólio de Osvandir Alves da Silva Júnior — Engenheiro de Software sênior: .NET, C#, C++, Python, agentes de IA e cloud, com mais de 30 anos de experiência.',
     },
     'en-US': {
       nav: ['Home', 'About', 'Stack', 'Projects', 'Education', 'Contact'],
       tag: 'Software Engineer | .NET / C# / C++ / Python | AI Agents & Cloud (AWS/Azure/GCP/Cloudflare) | Microservices | Mission-Critical Systems',
       title: 'I design systems, solve problems and write code that lasts.',
-      lead: 'Senior software engineer specialized in .NET, C#, C++, Python, AI agents and cloud (AWS/Azure/GCP/Cloudflare) with 30+ years of experience in banking and financial markets, plus industry and technology research — building microservices and mission-critical systems.',
+      lead: 'Senior software engineer specialized in .NET, C#, C++, Python, AI agents and cloud (AWS/Azure/GCP/Cloudflare) with 30+ years of experience in software development for banking and financial markets, plus industry and technology research — building microservices and mission-critical systems.',
       work: 'See projects →', contact: 'Get in touch',
       stats: ['Experience', 'Stack', 'Location', 'Status'],
-      statsV: ['30+ years', '.NET · C# · C++ · AI · Cloud', 'São Caetano do Sul, SP', '● Open to work'],
+      statsV: ['30+ years', '.NET · C# · Python · AI · Cloud', 'São Caetano do Sul, SP', '● Open to offers'],
       role: 'Software Engineer', city: 'São Caetano do Sul, BR',
       about: 'About', aboutS: '',
       aboutP: [
@@ -59,10 +60,9 @@
         'Throughout my career I specialized in building systems for banking and financial markets (Itaú, Easyinvest, BM&F/B3), and also led projects for government bodies (FIESP, FAPESP, SSP-SP, the State Education and Culture Secretariats), commercial and industrial sectors, and assistive-technology solutions.',
       ],
       resumo: 'At a glance',
-      facts: [['Location', 'São Caetano do Sul – SP'], ['Focus', '.NET · C++ · Python · AI Agents · Cloud'], ['Languages', 'Portuguese · English'], ['Experience', '30+ years']],
+      facts: [['Location', 'São Caetano do Sul – SP'], ['Focus', '.NET · C# · Python · AI · Cloud'], ['Languages', 'Portuguese · English'], ['Experience', '30+ years']],
       areas: [
-        ['Banking & financial markets', 'Itaú, Easyinvest, Banco Alfa and B3: password synchronization between AS400 and the mainstream platform via IBM MQ, cash replenishment for ATMs, fixed- and variable-income investment systems, JWT authorization and support of trading systems at B3.'],
-        ['.NET & C++', 'Back-end in C# and .NET Core (WebAPI, WCF, Entity Framework) and low-level C/C++: Win32, drivers, threading and IPC.'],
+        ['Backend & Frontend', 'Back-end in C# and .NET Core (WebAPI, WCF, Entity Framework) and low-level C/C++: Win32, drivers, threading and IPC. Front-end with Angular, React and micro-frontends, HTML5, CSS3, Blazor and Razor.'],
         ['Python & AI', 'FAPESP research with Python and TensorFlow (speech to LIBRAS on FPGAs and NPUs) and use of AI agents such as OpenAI, Claude, Gemini and n8n.'],
         ['Cloud & microservices', 'AWS (RDS, S3, EC2), Azure and GCP; microservices, micro-frontends, Docker, Kubernetes and CI/CD.'],
         ['Data', 'SQL Server, Oracle, MySQL and MongoDB: procedures, triggers, transactions and bulk operations.'],
@@ -78,32 +78,34 @@
       fixo: 'landline', copy: 'Copy email', copied: 'Email copied!', cv: 'Résumé',
       footL: 'Built with HTML, CSS, JavaScript and plenty of coffee.', footR: 'Press ` to open the terminal',
       cur: 'Current',
+      aria: { home: 'Home', main: 'Main', lang: 'Language', theme: 'Toggle theme', menu: 'Menu', open: 'Open terminal', term: 'Terminal', close: 'Close terminal' },
+      metaDesc: 'Portfolio of Osvandir Alves da Silva Júnior — Senior Software Engineer: .NET, C#, C++, Python, AI agents and cloud, with 30+ years of experience.',
     },
   };
   // [empresa, destaque, título PT, título EN, tecnologias]
   const LINKS = { linkedin: 'https://www.linkedin.com/in/osilvajr', cv: 'https://cv.smarttarget.com.br' };
   const WA_ICON = '<svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>';
   const PROJECTS = [
-    [2, 0, 'Sincronização de Senhas de Correntistas', 'Account Holder Password Synchronization', ['C#', '.NET Core', 'IBM MQ Series', 'IBM AS/400', 'SQL Server 2014', 'Splunk'], '', { d: { 'pt-BR': 'Desenvolvimento de subsistema de sincronização de senhas de correntistas entre baixa e alta plataforma (IBM AS400↔SQL Server) através de enfileiramento de mensagens, com coleta e tratamento de logs.', 'en-US': 'Development of a subsystem to synchronize the passwords of bank account holders between low-end and high-end platforms (IBM AS400↔SQL Server) through message queuing, with log collection and processing.' } }],
-    [2, 1, 'Gestão de Remessa para Caixa Eletrônico', 'ATM Cash Replenishment Management', ['C#', '.NET Core', 'WebAPI', 'AWS RDS'], '', { d: { 'pt-BR': 'Desenvolvimento de sistema de gestão de remessa de numerários para caixa eletrônico e gestão de carro forte.', 'en-US': 'Development of a system for managing cash shipments to ATMs and armored-truck management.' } }],
-    [2, 4, 'Gestão de Riscos de Plataforma', 'Platform Risk Management', ['C#', '.NET Core', 'WebAPI', 'Oracle 19c'], 'Petrobras S/A.', { d: { 'pt-BR': 'Desenvolvimento de sistema de gerenciamento de riscos em plataforma de petróleo.', 'en-US': 'Development of a risk management system for oil platforms.' } }],
-    [2, 3, 'Sistema de Investimentos Financeiro', 'Financial Investment System', ['VB.NET', 'VB6', 'ASP 3'], '', { d: { 'pt-BR': 'Sustentação de sistema bancário de investimentos (CDB/RDB/Tesouro) do Itaú em VB.Net, VB6 e ASP3 utilizando armazenamento de dados.', 'en-US': 'Maintenance of the Itaú banking investment system (CDB/RDB/Treasury) in VB.Net, VB6 and ASP3 using data storage.' } }],
-    [2, 2, 'Gestão de Ativos de RH', 'HR Asset Management', ['Angular', 'Micro-frontend'], '', { d: { 'pt-BR': 'Desenvolvimento de micro-frontend em Angular para o sistema de gestão de ativos de RH do Banco Itaú, atuando como analista-programador sênior em uma arquitetura de micro-frontends.', 'en-US': 'Development of an Angular micro-frontend for the HR asset management system at Banco Itaú, working as a senior programmer analyst within a micro-frontend architecture.' } }],
-    [3, 0, 'Autorização de Acesso de Usuários', 'User Access Authorization', ['C#', '.NET Core', 'React', 'Micro-frontend', 'JWT', 'AWS RDS', 'MySQL', 'S3', 'EC2']],
-    [13, 0, 'Gestão de Sinistro de Veículos', 'Vehicle Claims Management', ['Visual Basic 6', 'SQL Server'], 'Banco Alfa S/A.'],
-    [1, 0, 'Pesquisa de Tradução de Voz para LIBRAS', 'Speech-to-LIBRAS Translation Research', ['Python', 'TensorFlow', 'Machine Learning', 'FPGA', 'NPU']],
-    [13, 1, 'Gestão de Stents Cardiológicos', 'Cardiac Stent Management', ['C#', '.NET', 'SQL Server'], 'Instituto Dante Pazzanese'],
-    [7, 0, 'Sistemas de Negociação da Bolsa de Valores', 'Stock Exchange Trading Systems', ['C++', 'C', 'Java', 'C#', 'VB6', 'Delphi', 'Cobol', 'TIBCO']],
-    [0, 0, 'Gestão de Estoque de Peças Automotivas', 'Automotive Parts Inventory Management', ['C#', 'C++', 'VB.NET', 'PowerShell', 'Angular', 'SQL Server'], 'Scania S/A.', { d: { 'pt-BR': 'Sustentação em diversos subsistemas de gestão de estoque, contemplando todo o processo de recebimento, armazenamento e expedição de peças automotivas.', 'en-US': 'Support for several inventory management subsystems, covering the entire process of receiving, storing and shipping automotive parts.' } }],
-    [4, 0, 'Sistema de Vistoria do Corpo de Bombeiros', 'Fire Department Inspection System', ['C#', 'MVP', 'Entity Framework', 'SQL Server 2016'], '', { d: { 'pt-BR': 'Desenvolvimento de módulo em sistema de vistoria de incêndios do Corpo de Bombeiros.', 'en-US': 'Development of a module for the Fire Department fire inspection system.' } }],
-    [8, 0, 'Secretaria Escolar Digital', 'Digital School Administration', ['C#', 'MVC', 'WebAPI', 'WCF', 'JSON', 'XML/SOAP', 'Entity Framework', 'Oracle 11g']],
-    [9, 0, 'Gestão de Certificado de Origem', 'Certificate of Origin Management', ['C#', 'ASP.NET', 'Entity Framework', 'SQL Server 2008']],
-    [11, 0, 'Nota Fiscal Eletrônica', 'Electronic Invoice', ['C#', 'WinForms', 'WebForms', 'MVP', 'Oracle 10g'], '', { d: { 'pt-BR': 'Sistema modular de Nota Fiscal Eletrônica, programado em C#, com interfaces visuais em WinForms e WebForms, arquitetura MVP, com armazenamento de dados em servidor Oracle 10g e integração com serviços do SEFAZ.', 'en-US': 'Modular electronic invoice (NF-e) system, written in C#, with WinForms and WebForms user interfaces, MVP architecture, with data stored on an Oracle 10g server and integration with SEFAZ services.' } }],
-    [12, 0, 'Nota Fiscal Paulista', 'Nota Fiscal Paulista', ['C#', '.NET', 'WinForms', '3-Tier', 'Web Services', 'SQL Server']],
-    [11, 3, 'Rastreamento de Veículos Automotores', 'Motor Vehicle Tracking', ['C#', 'C++', 'SOA', 'Web Services', 'Oracle 10g', 'Windows Mobile/CE'], 'CAOA Montadora de Veículos Ltda.'],
-    [12, 3, 'Gestão de Ponto de Venda', 'Point of Sale Management', ['VB', 'COM', 'ASP 3.0'], '', { d: { 'pt-BR': 'Desenvolvimento de aplicativo de frente de loja (PDV) para o grupo Armani/Dolce & Gabbana/Ermenegildo Zegna com autenticação biométrica.', 'en-US': 'Development of a front-of-store (POS) application for the Armani/Dolce & Gabbana/Ermenegildo Zegna group with biometric authentication.' } }],
-    [12, 4, 'Tarifação e Gravação de Chamadas', 'Call Billing and Recording', ['C', 'C++', 'Sybase SQL Server'], '', { d: { 'pt-BR': 'Sustentação e implementação de novas funcionalidades em sistema de monitoramento, gravação e tarifação de chamadas para PABX (Tadiran).', 'en-US': 'Maintenance and implementation of new features in a call monitoring, recording and billing system for PABX (Tadiran).' } }],
-    [14, 0, 'Tratamento Térmico de Materiais', 'Heat Treatment of Materials', ['Visual Basic 6', 'C++', 'MySQL'], '', { d: { 'pt-BR': 'Desenvolvimento de sistema de identificação de peças, automação e controle de qualidade do processo de tratamento térmico de materiais (recozimento, cementação, têmpera, revenimento).', 'en-US': 'Development of a system for part identification, automation and quality control of the heat-treatment process for materials (annealing, carburizing, quenching, tempering).' } }],
+    [2, 0, 'Sincronização de Senhas de Correntistas', 'Account Holder Password Synchronization', ['C#', '.NET Core', 'IBM MQ Series', 'IBM AS/400', 'SQL Server 2014', 'Splunk'], '', { d: { 'pt-BR': 'Subsistema em C# e .NET Core que sincroniza as senhas de correntistas entre a baixa plataforma (IBM AS/400) e a alta plataforma, via filas IBM MQ Series e SQL Server 2014, com coleta e tratamento de logs no Splunk.', 'en-US': 'C# and .NET Core subsystem that keeps account holders\' passwords in sync between the low-end platform (IBM AS/400) and the high-end platform, using IBM MQ Series queues and SQL Server 2014, with log collection and processing for Splunk.' } }],
+    [2, 1, 'Gestão de Remessa para Caixa Eletrônico', 'ATM Cash Replenishment Management', ['C#', '.NET Core', 'WebAPI', 'AWS RDS'], '', { d: { 'pt-BR': 'Sistema de gestão de remessa de numerário para caixas eletrônicos e de carros-fortes, em C#, .NET Core e WebAPI, com dados no AWS RDS.', 'en-US': 'System for managing cash shipments to ATMs and armored-car (cash-in-transit) operations, built with C#, .NET Core and WebAPI, with data on AWS RDS.' } }],
+    [2, 4, 'Gestão de Riscos de Plataforma', 'Oil Platform Risk Management', ['C#', '.NET Core', 'WebAPI', 'Oracle 19c'], 'Petrobras S/A.', { d: { 'pt-BR': 'Sistema de gerenciamento de riscos de plataformas de petróleo para a Petrobras, em C#, .NET Core e WebAPI, com Oracle 19c.', 'en-US': 'Risk management system for oil platforms, built for Petrobras with C#, .NET Core and WebAPI, on Oracle 19c.' } }],
+    [2, 3, 'Sistema de Investimentos Financeiros', 'Financial Investment System', ['VB.NET', 'VB6', 'ASP 3'], '', { d: { 'pt-BR': 'Sustentação do sistema bancário de investimentos do Itaú (CDB, RDB e Tesouro), construído em VB.NET, VB6 e ASP 3.', 'en-US': 'Maintenance of the Itaú banking investment system (CDB, RDB and Treasury), built with VB.NET, VB6 and ASP 3.' } }],
+    [2, 2, 'Gestão de Ativos de RH', 'HR Asset Management', ['Angular', 'Micro-frontend'], '', { d: { 'pt-BR': 'Micro-frontend em Angular para o sistema de gestão de ativos de RH do Banco Itaú, desenvolvido como analista-programador sênior em uma arquitetura de micro-frontends.', 'en-US': 'Angular micro-frontend for the HR asset management system at Banco Itaú, developed as a senior programmer analyst within a micro-frontend architecture.' } }],
+    [3, 0, 'Autorização de Acesso de Usuários', 'User Access Authorization', ['C#', '.NET Core', 'React', 'Micro-frontend', 'JWT', 'AWS RDS', 'MySQL', 'S3', 'EC2'], '', { d: { 'pt-BR': 'Módulo de autorização de acesso a serviços e WebAPIs: integra o autenticador proprietário, gerencia permissões (claims) em um micro-frontend React e emite tokens JWT por um microsserviço C# / .NET Core na AWS (RDS MySQL, S3 e EC2).', 'en-US': 'Access-authorization module for services and Web APIs: it integrates with the company\'s proprietary authenticator, manages permissions (claims) in a React micro-frontend, and issues JWT tokens through a C# / .NET Core microservice on AWS (RDS MySQL, S3 and EC2).' } }],
+    [13, 0, 'Gestão de Sinistro de Veículos', 'Vehicle Claims Management', ['Visual Basic 6', 'SQL Server'], 'Banco Alfa S/A.', { d: { 'pt-BR': 'Sistema de salvados para o Banco Alfa, com controle de sinistros de veículos automotores, em Visual Basic 6.0 e SQL Server.', 'en-US': 'Salvage-vehicle system for Banco Alfa, controlling motor vehicle claims, built with Visual Basic 6.0 and SQL Server.' } }],
+    [1, 0, 'Pesquisa de Tradução de Voz para LIBRAS', 'Speech-to-LIBRAS Translation Research', ['Python', 'TensorFlow', 'Machine Learning', 'FPGA', 'NPU'], '', { d: { 'pt-BR': 'Pesquisa em tecnologia assistiva para traduzir fala em Língua Brasileira de Sinais: captura e reconhecimento de voz em Python e modelos de machine learning em TensorFlow, com processamento de sinais em FPGAs e NPUs.', 'en-US': 'Assistive-technology research on translating speech into Brazilian Sign Language (LIBRAS): voice capture and recognition in Python and machine learning models in TensorFlow, with signal processing on FPGAs and NPUs.' } }],
+    [13, 1, 'Gestão de Stents Cardiológicos', 'Cardiac Stent Management', ['C#', '.NET', 'SQL Server'], 'Instituto Dante Pazzanese', { d: { 'pt-BR': 'Sistema de controle cardiológico de stents para o Instituto Dante Pazzanese, em .NET (C#) e SQL Server.', 'en-US': 'Cardiac stent tracking system for the Dante Pazzanese Institute, built with .NET (C#) and SQL Server.' } }],
+    [7, 0, 'Sistemas de Negociação da Bolsa de Valores', 'Stock Exchange Trading Systems', ['C++', 'C', 'Java', 'C#', 'VB6', 'Delphi', 'Cobol', 'TIBCO'], '', { d: { 'pt-BR': 'Suporte de produção (PSG) a sistemas de negociação em C++, C, Java, VB6, C#, Delphi e Cobol: análise de dumps de memória, diagnóstico com fornecedores (Microsoft, Oracle, Tibco), correções no código-fonte, GMUDs e ferramentas de monitoramento.', 'en-US': 'Production support (PSG) for trading systems written in C++, C, Java, VB6, C#, Delphi and COBOL: memory dump analysis, diagnosis with vendors (Microsoft, Oracle, TIBCO), source-code fixes, change requests (GMUDs) and monitoring tools.' } }],
+    [0, 0, 'Gestão de Estoque de Peças Automotivas', 'Automotive Parts Inventory Management', ['C#', 'C++', 'VB.NET', 'PowerShell', 'Angular', 'SQL Server'], 'Scania S/A.', { d: { 'pt-BR': 'Sustentação de subsistemas de estoque que cobrem todo o ciclo de recebimento, armazenamento e expedição de peças automotivas, em C#, C++, VB.NET, PowerShell e Angular, com SQL Server.', 'en-US': 'Maintenance of inventory subsystems covering the full cycle of receiving, storing and shipping automotive parts, built with C#, C++, VB.NET, PowerShell and Angular, on SQL Server.' } }],
+    [4, 0, 'Sistema de Vistoria do Corpo de Bombeiros', 'Fire Department Inspection System', ['C#', 'MVP', 'Entity Framework', 'SQL Server 2016'], '', { d: { 'pt-BR': 'Módulo do sistema de vistoria de incêndios do Corpo de Bombeiros, em C# com arquitetura MVP, Entity Framework e SQL Server 2016.', 'en-US': 'Module of the Fire Department\'s fire inspection system, built in C# with MVP architecture, Entity Framework and SQL Server 2016.' } }],
+    [8, 0, 'Secretaria Escolar Digital', 'Digital School Administration', ['C#', 'MVC', 'WebAPI', 'WCF', 'JSON', 'XML/SOAP', 'Entity Framework', 'Oracle 11g'], '', { d: { 'pt-BR': 'Camada de comunicação do sistema de secretaria escolar, com acesso por dispositivos móveis (Android e iPhone) e interface web MVC. Em C#, com WebAPI e WCF (JSON e XML/SOAP), Entity Framework Code First e Oracle 11g.', 'en-US': 'Communication layer of the school administration system, with access through mobile devices (Android and iPhone) and an MVC web interface. Built in C# with WebAPI and WCF (JSON and XML/SOAP), Entity Framework Code First and Oracle 11g.' } }],
+    [9, 0, 'Gestão de Certificado de Origem', 'Certificate of Origin Management', ['C#', 'ASP.NET', 'Entity Framework', 'SQL Server 2008'], '', { d: { 'pt-BR': 'Sistema web de emissão de Certificado de Origem para importação e exportação, que classifica produtos da indústria nacional conforme os acordos comerciais do Brasil. Em C# ASP.NET, Entity Framework e SQL Server 2008.', 'en-US': 'Web system for issuing Certificates of Origin for import and export, classifying domestic industrial products under Brazil\'s trade agreements. Built with C# ASP.NET, Entity Framework and SQL Server 2008.' } }],
+    [11, 0, 'Nota Fiscal Eletrônica', 'Electronic Invoice (NF-e)', ['C#', 'WinForms', 'WebForms', 'MVP', 'Oracle 10g'], 'Hiperdata Consultoria em Informática Ltda.', { d: { 'pt-BR': 'Sistema modular de NF-e em C#, com interfaces WinForms e WebForms, arquitetura MVP, dados em Oracle 10g e integração com os serviços da SEFAZ.', 'en-US': 'Modular electronic invoice (NF-e) system in C#, with WinForms and WebForms interfaces, MVP architecture, Oracle 10g storage and integration with SEFAZ services.' } }],
+    [12, 0, 'Nota Fiscal Paulista', 'Nota Fiscal Paulista', ['C#', '.NET', 'WinForms', '3-Tier', 'Web Services', 'SQL Server'], '', { d: { 'pt-BR': 'Sistema em três camadas, com interface WinForms, geração de arquivos de layout para o sistema de gestão e integração com a Fazenda estadual via web service. Em .NET (C#) e SQL Server.', 'en-US': 'Three-tier system with a WinForms interface, layout-file generation for the management system and integration with the state tax authority via web service. Built with .NET (C#) and SQL Server.' } }],
+    [11, 3, 'Rastreamento de Veículos Automotores', 'Motor Vehicle Tracking', ['C#', 'C++', 'SOA', 'Web Services', 'Oracle 10g', 'Windows Mobile/CE'], 'CAOA Montadora de Veículos Ltda.', { d: { 'pt-BR': 'Sistema de rastreamento de automóveis da CAOA para Windows Mobile/CE, com arquitetura SOA em C# e C++: web services como ponto de entrada do aplicativo e dados em Oracle 10g.', 'en-US': 'CAOA vehicle-tracking system for Windows Mobile/CE, with an SOA architecture in C# and C++: web services as the app\'s entry point and data on Oracle 10g.' } }],
+    [12, 3, 'Gestão de Ponto de Venda', 'Point of Sale Management', ['VB', 'COM', 'ASP 3.0'], '', { d: { 'pt-BR': 'Aplicativo de frente de loja (PDV) com autenticação biométrica para o grupo Armani/Dolce & Gabbana/Ermenegildo Zegna, em VB, COM e ASP 3.0.', 'en-US': 'Front-of-store (POS) application with biometric authentication for the Armani/Dolce & Gabbana/Ermenegildo Zegna group, built with VB, COM and ASP 3.0.' } }],
+    [12, 4, 'Tarifação e Gravação de Chamadas', 'Call Billing and Recording', ['C', 'C++', 'Sybase SQL Server'], '', { d: { 'pt-BR': 'Sustentação e novas funcionalidades de um sistema de monitoramento, gravação e tarifação de chamadas para PABX (Tadiran), em C, C++ e Sybase SQL Server.', 'en-US': 'Maintenance and new features for a call monitoring, recording and billing system for PABX (Tadiran), built with C, C++ and Sybase SQL Server.' } }],
+    [14, 0, 'Tratamento Térmico de Materiais', 'Heat Treatment of Materials', ['Visual Basic 6', 'C++', 'MySQL'], '', { d: { 'pt-BR': 'Sistema de identificação de peças, automação e controle de qualidade do tratamento térmico (recozimento, cementação, têmpera e revenimento), em Visual Basic 6, C++ e MySQL.', 'en-US': 'System for part identification, automation and quality control of the heat-treatment process (annealing, carburizing, quenching and tempering), built with Visual Basic 6, C++ and MySQL.' } }],
   ];
 
   const T = (o) => (o == null ? '' : typeof o === 'string' ? o : o[lang] || o['pt-BR'] || '');
@@ -176,6 +178,13 @@
     const u = U();
     document.documentElement.lang = lang;
     document.title = lang === 'pt-BR' ? 'Osvandir Júnior – Engenheiro de Software' : 'Osvandir Júnior – Software Engineer';
+    const setAttr = (sel, attr, v) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, v); };
+    const A = u.aria;
+    setAttr('.brand', 'aria-label', A.home); setAttr('#navLinks', 'aria-label', A.main); setAttr('#langBtn', 'aria-label', A.lang);
+    setAttr('#themeBtn', 'aria-label', A.theme); setAttr('#menuBtn', 'aria-label', A.menu); setAttr('#termFab', 'aria-label', A.open);
+    setAttr('#term', 'aria-label', A.term); setAttr('#termClose', 'aria-label', A.close);
+    setAttr('meta[name="description"]', 'content', u.metaDesc); setAttr('meta[property="og:description"]', 'content', u.metaDesc);
+    setAttr('meta[property="og:title"]', 'content', document.title); setAttr('meta[property="og:locale"]', 'content', lang === 'pt-BR' ? 'pt_BR' : 'en_US');
     const ids = ['hero', 'about', 'stack', 'work', 'edu', 'contact'];
     $('navLinks').innerHTML = ids.map((id, i) => `<a href="#${id}">${u.nav[i]}</a>`).join('');
     set('brandName', R.header.fullName.split(' ').filter((_, i, a) => i === 0 || i === a.length - 1).join(' '));
@@ -190,9 +199,8 @@
       `  <span class="k">string[]</span> Stack = [\n` +
       `    <span class="s">".NET"</span>,\n` +
       `    <span class="s">"C#"</span>,\n` +
-      `    <span class="s">"C++"</span>,\n` +
-      `    <span class="s">"Python"</span>,\n` +
-      `    <span class="s">"IA"</span>,\n` +
+            `    <span class="s">"Python"</span>,\n` +
+      `    <span class="s">"${lang === 'pt-BR' ? 'IA' : 'AI'}"</span>,\n` +
       `    <span class="s">"Cloud"</span>\n` +
       `  ];\n` +
       `  <span class="k">string</span> City  = <span class="s">"São Caetano do Sul, SP"</span>;\n` +
@@ -221,7 +229,7 @@
     });
     /* renomeia cards e agrupa Nuvem + Virtualização */
     const RN = lang === 'pt-BR'
-      ? { 'Infraestrutura': 'Infraestrutura de Rede', 'Enfileiramento': 'Enfileiramento de Mensagens', 'Armazenamento': 'Armazenamento de Dados', 'Arquitetura': 'Arquitetura de Software', 'Programação': 'Linguagens de Programação', 'Metodologias': 'Metodologias de Projeto', 'Ambientes': 'Ambientes de Desenvolvimento', 'Tecnologias': 'Tecnologias de Programação', 'Ferramentas': 'Ferramentas de Desenvolvimento', 'Segurança': 'Segurança de Dados' }
+      ? { 'Infraestrutura': 'Infraestrutura de Rede', 'Enfileiramento': 'Enfileiramento de Mensagens', 'Armazenamento': 'Armazenamento de Dados', 'Arquitetura': 'Arquitetura de Software', 'Programação': 'Linguagens de Programação', 'Metodologias': 'Metodologias de Projeto', 'Tecnologias': 'Tecnologias de Programação', 'Ferramentas': 'Ferramentas de Desenvolvimento', 'Segurança': 'Segurança de Dados' }
       : { 'Infrastructure': 'Network Infrastructure', 'Architecture': 'Software Architecture', 'Programming': 'Programming Languages', 'Methodologies': 'Project Methodologies', 'Technologies': 'Programming Technologies', 'Tools': 'Development Tools', 'Security': 'Data Security' };
     groups.forEach((g) => { if (RN[g.name]) g.name = RN[g.name]; });
     const gEnv = groups.find((g) => /^(Nuvem|Cloud)$/.test(g.name));
@@ -242,7 +250,7 @@
     $('projGrid').innerHTML = PROJECTS.map(([ci, hi, tp, te, tech, org, x = {}], i) => {
       const it = items[ci];
       const emp = /^Hiperdata/.test(it.company) ? '' : it.company;
-      const meta = [org, emp].filter(Boolean).join(' · ');
+      const meta = org || emp;
       return `<article class="card proj"><span class="n">${String(i + 1).padStart(2, '0')}</span>` +
         `<h3>${esc(lang === 'pt-BR' ? tp : te)}</h3>` +
         (meta ? `<span class="meta">${esc(meta)}</span>` : '') +
@@ -320,6 +328,8 @@
   const raw = (s, cls) => line(esc(s), cls);
   const prompt = () => { $('termPrompt').textContent = 'osvandir@portfolio:~$'; };
   const pad = (s, n) => String(s).padEnd(n, ' ');
+  const has = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+  const tr = (pt, en) => (lang === 'pt-BR' ? pt : en);
 
   const files = ['about.txt', 'skills.txt', 'experience.txt', 'education.txt', 'languages.txt', 'contact.txt', 'resume.json'];
 
@@ -356,8 +366,8 @@
     skills(args) {
       const cats = sec().expertiseAreas.categories;
       const q = args.join(' ').toLowerCase();
-      const list = q ? cats.filter((c) => T(c.name).toLowerCase().includes(q) || c.name['pt-BR'].toLowerCase().includes(q)) : cats;
-      if (!list.length) return raw(`categoria não encontrada: ${q}`, 'err');
+      const list = q ? cats.filter((c) => ['pt-BR', 'en-US'].some((l) => (c.name[l] || '').toLowerCase().includes(q))) : cats;
+      if (!list.length) return raw(lang === 'pt-BR' ? `categoria não encontrada: ${q}` : `category not found: ${q}`, 'err');
       list.forEach((c) => {
         line(`<span class="hl">${esc(T(c.name))}</span>`);
         raw('  ' + T(c.items));
@@ -375,6 +385,7 @@
         it.highlights.forEach((h) => raw('• ' + T(h)));
         return;
       }
+      if (args[0] !== undefined) return raw(lang === 'pt-BR' ? `nº inválido: ${args[0]} (use 1–${items.length})` : `invalid number: ${args[0]} (use 1–${items.length})`, 'err');
       items.forEach((it, i) => line(`<span class="dim">${esc(pad(i + 1, 3))}</span><span class="hl">${esc(pad(T(it.period), 22))}</span>${esc(it.company)} <span class="dim">— ${esc(T(it.role))}</span>`));
       raw(lang === 'pt-BR' ? 'Detalhes: experience <nº>' : 'Details: experience <n>', 'dim');
     },
@@ -397,10 +408,10 @@
     cat(args) {
       const f = args[0];
       const map = { 'about.txt': 'about', 'skills.txt': 'skills', 'experience.txt': 'experience', 'education.txt': 'education', 'languages.txt': 'languages', 'contact.txt': 'contact' };
-      if (!f) return raw('uso: cat <arquivo>', 'err');
-      if (f === 'resume.json') return raw(JSON.stringify({ name: R.header.fullName, position: T(R.header.targetPosition), email: contact('email').value }, null, 2));
-      if (map[f]) return cmds[map[f]]([]);
-      raw(`cat: ${f}: arquivo não encontrado`, 'err');
+      if (!f) return raw(tr('uso: cat <arquivo>', 'usage: cat <file>'), 'err');
+      if (f.toLowerCase() === 'resume.json') return raw(JSON.stringify(R, null, 2));
+      if (has(map, f.toLowerCase())) return cmds[map[f.toLowerCase()]]([]);
+      raw(tr(`cat: ${f}: arquivo não encontrado`, `cat: ${f}: file not found`), 'err');
     },
     neofetch() {
       const yrs = new Date().getFullYear() - 1994;
@@ -415,16 +426,17 @@
       const a = (args[0] || '').toLowerCase();
       if (a === 'pt') { setLang('pt-BR'); raw('Idioma: Português (BR)', 'hl'); }
       else if (a === 'en') { setLang('en-US'); raw('Language: English (US)', 'hl'); }
-      else raw('uso: lang pt|en', 'err');
+      else raw(tr('uso: lang pt|en', 'usage: lang pt|en'), 'err');
     },
     theme(args) {
       const a = (args[0] || '').toLowerCase();
-      if (a === 'dark' || a === 'light') { setTheme(a); raw(`theme: ${a}`, 'hl'); } else raw('uso: theme dark|light', 'err');
+      if (a === 'dark' || a === 'light') { setTheme(a); raw(`theme: ${a}`, 'hl'); } else raw(tr('uso: theme dark|light', 'usage: theme dark|light'), 'err');
     },
     goto(args) {
-      const m = { home: 'hero', about: 'about', sobre: 'about', stack: 'stack', skills: 'stack', projects: 'work', projetos: 'work', education: 'edu', formacao: 'edu', contact: 'contact', contato: 'contact' };
-      const id = m[(args[0] || '').toLowerCase()];
-      if (!id) return raw('uso: goto home|about|stack|projects|education|contact', 'err');
+      const m = { home: 'hero', about: 'about', sobre: 'about', stack: 'stack', skills: 'stack', projects: 'work', projetos: 'work', education: 'edu', formacao: 'edu', contact: 'contact', contato: 'contact', início: 'hero', inicio: 'hero', experience: 'work', experiencia: 'work', experiência: 'work', formação: 'edu' };
+      const key = (args[0] || '').toLowerCase();
+      const id = has(m, key) ? m[key] : null;
+      if (!id) return raw(tr('uso: goto home|about|stack|projects|education|contact', 'usage: goto home|about|stack|projects|education|contact'), 'err');
       document.getElementById(id).scrollIntoView(); raw(`→ #${id}`, 'dim');
     },
     clear() { out().innerHTML = ''; },
@@ -443,6 +455,7 @@
       raw(tech.join(' · '), 'dim'); raw((x.d && x.d[lang]) || T(items[ci].highlights[hi]));
       return;
     }
+    if (args[0] !== undefined) return raw(lang === 'pt-BR' ? `nº inválido: ${args[0]} (use 1–${PROJECTS.length})` : `invalid number: ${args[0]} (use 1–${PROJECTS.length})`, 'err');
     PROJECTS.forEach(([ci, , tp, te, , org, x = {}], i) => line(`<span class="dim">${esc(pad(i + 1, 3))}</span><span class="hl">${esc(lang === 'pt-BR' ? tp : te)}</span> <span class="dim">— ${esc(x.co || org || items[ci].company)}</span>`));
     raw(lang === 'pt-BR' ? 'Detalhes: projects <nº>' : 'Details: projects <n>', 'dim');
   };
@@ -454,7 +467,7 @@
     if (!s) return;
     history.push(s); hi = history.length;
     const [c, ...args] = s.split(/\s+/);
-    const fn = cmds[c.toLowerCase()];
+    const fn = has(cmds, c.toLowerCase()) ? cmds[c.toLowerCase()] : null;
     if (fn) fn(args);
     else raw(`${c}: command not found. Type help.`, 'err');
     out().scrollTop = out().scrollHeight;
