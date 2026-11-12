@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" width="100%" height="100%">
+  <defs>
+    <style>
+      :root {
+
+        /* BRUSH COLORS ATTRIBUTES */
+        --brush-solid-white: #FFFFFF;
+        --brush-solid-red-bright: #FF4D4D;
+        --brush-solid-red-dark: #C41E3A;
+        --brush-solid-almost-black: #1A1A1A;
+        --brush-solid-black: #000000;
+        --brush-solid-blue-dark: #2C3E50;
+        --brush-solid-gray-dark: #1A252F;
+        --brush-solid-red-middle: #E74C3C;
+
+        /* BASE BORDER ATTRIBUTES */
+        --base-border-brush: var(--brush-solid-almost-black);
+        --base-border-stroke: 1px;
+        
+        /* ADAPTATIVE SYMBOL ATTRIBUTES */
+        --adaptative-scale: 100%;
+        --adaptative-size-x: var(--adaptative-scale);
+        --adaptative-size-y: var(--adaptative-scale);
+        
+        --viewbox-size-x: 500px;
+        --viewbox-size-y: 560px;
+        --viewbox-offset-y: 0px;
+        --viewbox-offset-x: 0px;
+        --viewbox-fill-brush: var(--brush-solid-white);
+        /*--viewbox-border-brush: calc();
+        --viewbox-border-stroke: 0.5dp;*/
+        
+        /* GRADIENT CIRCLE ATTRIBUTES */
+        --gradient-circle-offset: 50%;
+        --gradient-circle-limits: 30%;
+        --gradient-circle-offset-x: var(--gradient-circle-offset);
+        --gradient-circle-offset-y: var(--gradient-circle-offset);
+        --gradient-circle-limits-x: var(--gradient-circle-limits);
+        --gradient-circle-limits-y: var(--gradient-circle-limits)
+        --gradient-circle-begin-offset: 0%;
+        --gradient-circle-begin-brush: var(--brush-solid-red-bright);
+        --gradient-circle-end-offset: 100%;
+        --gradient-circle-end-brush: var(--brush-solid-red-dark);
+        
+        /* GRADIENT BAND ATTRIBUTES */
+        --circle-band-alternate-brush: var(--brush-solid-white);
+        --circle-band-size-x: 250px;
+        --circle-band-size-y: 200px;
+        --circle-band-border-brush: var(--base-border-brush);
+        --circle-band-border-stroke: var(--base-border-stroke);
+
+        --arrow-shaft-brush: var(--brush-solid-blue-dark);
+        --arrow-shaft-size-x: 8px;
+        --arrow-shaft-size-y: 230px;
+        --arrow-shaft-offset-x: calc(var(--arrow-shaft-size-x) / 2 * -1);
+        --arrow-shaft-offset-y: calc(var(--arrow-shaft-size-y) * -1);
+        
+        --arrow-tip-brush: var(--brush-solid-gray-dark);
+        --arrow-fletch-brush: var(--brush-solid-red-middle);
+        --arrow-nock-brush: var(--brush-solid-blue-dark);
+        
+        /* SHADOW FILTER ATTRIBUTES */
+        --filter-shadow-scale: 160%;
+        --filter-shadow-offset: -30%;
+        --filter-shadow-offset-x: var(--filter-shadow-offset);
+        --filter-shadow-offset-y: var(--filter-shadow-offset);
+        --filter-shadow-scale-x: var(--filter-shadow-scale);
+        --filter-shadow-scale-y: var(--filter-shadow-scale);
+        --filter-shadow-brush: var(--brush-solid-black);
+        --filter-shadow-opacity: 0.5;
+      
+        /* TARGET SHADOW ATTRIBUTES */
+        --shadow-target-delta-x: 4px;
+        --shadow-target-delta-y: 2px;
+        --shadow-target-blur: 4px;
+        --shadow-target-brush: var(--filter-shadow-brush);
+        --shadow-target-opacity: var(--filter-shadow-opacity);
+
+        /* ARROW SHADOW ATTRIBUTES */
+        --shadow-arrow-delta-x: -4px;
+        --shadow-arrow-delta-y: 2px;
+        --shadow-arrow-blur: 2px;
+        --shadow-arrow-brush: var(--filter-shadow-brush);
+        --shadow-arrow-opacity: var(--filter-shadow-opacity);
+
+        /* TITLE SHADOW ATTRIBUTES */
+        --shadow-title-delta-x: 0px;
+        --shadow-title-delta-y: 3px;
+        --shadow-title-blur: 3px;
+        --shadow-title-brush: var(--filter-shadow-brush);
+        --shadow-title-opacity: var(--filter-shadow-opacity);
+
+        
+        --title-xlink-href: "https://smarttarget.com.br";
+      }
+
+      /* TARGET SYMBOL AND ADAPTATIVE STYLING */
+      #targetSymbol, .adaptative {
+        width: var(--adaptative-size-x);
+        height: var(--adaptative-size-y);
+      }
+      #targetSymbol circle {
+        cx: var(--circle-band-size-x) !important;
+        cy: var(--circle-band-size-y) !important;
+        fill: var(--circle-band-alternate-brush);
+      }
+      #targetSymbol circle, .border{
+        stroke: var(--circle-band-border-brush) !important;
+        stroke-width: var(--circle-band-border-stroke) !important;
+        stroke-linejoin: round !important;
+      }
+      #targetSymbol circle.gradient {
+        fill: url(#targetGradient) !important;
+      }
+      
+      /* SHADOWS FILTER STYLING */
+      #targetFilter,
+      #arrowFilter,
+      #titleFilter{
+        x: var(--filter-shadow-offset-x) !important;
+        y: var(--filter-shadow-offset-y) !important;
+        width: var(--filter-shadow-scale-x) !important;
+        height: var(--filter-shadow-scale-y) !important;
+      }
+
+      /* TARGET SHAPE STYLING */
+      #targetShape {
+        filter: url(#targetFilter) !important;
+      }
+
+      /* ARROW SHAPE STYLING */
+      #arrowShape {
+        filter: url(#arrowFilter) !important;
+      }
+
+      /* TITLE SHAPE STYLING */
+      #titleShape {
+        filter: url(#titleFilter) !important;
+      }
+      
+    </style>
+
+    <!-- TARGET CIRCLE GRADIENT DEFINITION -->
+    <radialGradient id="targetGradient"
+      cx="var(--gradient-circle-offset-x)"
+      cy="var(--gradient-circle-offset-y)"
+      r="var(--gradient-circle-offset)"
+      fx="var(--gradient-circle-limits-x)"
+      fy="var(--gradient-circle-limits-y)">
+      <stop id="targetGradientBegin"
+        offset="var(--gradient-circle-begin-offset)"
+        stop-color="var(--gradient-circle-begin-brush)" />
+      <stop id="targetGradientEnd"
+        offset="var(--gradient-circle-end-offset)"
+        stop-color="var(--gradient-circle-end-brush)" />
+    </radialGradient>
+
+    <!-- TARGET SHADOW FILTER DEFINITION -->
+    <filter id="targetFilter">
+      <feDropShadow id="targetShadow"
+        dx="var(--shadow-target-delta-x)" 
+        dy="var(--shadow-target-delta-y)"
+        stdDeviation="var(--shadow-target-blur)"
+        flood-color="var(--shadow-target-brush)"
+        flood-opacity="var(--shadow-target-opacity)" />
+    </filter>
+
+    <!-- ARROW SHADOW FILTER DEFINITION -->
+    <filter id="arrowFilter">
+      <feDropShadow id="arrowShadow"
+        dx="var(--shadow-arrow-delta-x)" 
+        dy="var(--shadow-arrow-delta-y)"
+        stdDeviation="var(--shadow-arrow-blur)"
+        flood-color="var(--shadow-arrow-brush)"
+        flood-opacity="var(--shadow-arrow-opacity)" />
+    </filter>
+
+    <!-- TITLE SHADOW FILTER DEFINITION -->
+    <filter id="titleFilter">
+      <feDropShadow id="titleShadow"
+        dx="var(--shadow-title-delta-x)" 
+        dy="var(--shadow-title-delta-y)"
+        stdDeviation="var(--shadow-title-blur)"
+        flood-color="var(--shadow-title-brush)"
+        flood-opacity="var(--shadow-title-opacity)" />
+    </filter>
+
+    <!-- VIEWBOX SYMBOL DEFINITION -->
+    <symbol id="viewboxSymbol" 
+      viewBox="0 0 500 560"
+      preserveAspectRatio="none">
+      <rect id="viewboxFillShape"
+        x="var(--viewbox-offset-x)"
+        y="var(--viewbox-offset-y)"
+        width="var(--viewbox-size-x)"
+        height="var(--viewbox-size-y)"
+        fill="var(--viewbox-fill-brush)" />
+    </symbol>
+
+    <!-- TARGET SYMBOL DEFINITION -->
+    <symbol id="targetSymbol"
+      viewBox="0 0 500 560"
+      preserveAspectRatio="none">
+      <circle class="gradient" r="160px" />
+      <circle r="125px" />
+      <circle class="gradient" r="90px" />
+      <circle r="55px" />
+      <circle class="gradient" r="25px" />
+    </symbol>
+
+    <!-- ARROW SYMBOL DEFINITION -->
+    <symbol id="arrowSymbol"
+      viewBox="0 0 500 560"
+      preserveAspectRatio="none">
+      <g transform="translate(218, -120) rotate(45)">
+        <rect class="border"
+          fill="var(--arrow-shaft-brush)"
+          x="246" 
+          y="4"
+          width="8"
+          height="176" />
+        <polygon class="border"
+          fill="var(--arrow-tip-brush)"
+          points="250,208 237,172 250,180 263,172" />
+        <g class="border" 
+          fill="var(--arrow-fletch-brush)">
+          <path d="M246,40 L228,8 L233,4 L246,22 Z" />
+          <path d="M254,40 L272,8 L267,4 L254,22 Z" />
+        </g>
+        <circle class="border"
+          fill="var(--arrow-nock-brush)"
+          cx="250" cy="4" r="4"  />
+      </g>
+    </symbol>
+
+    <!-- VIEWBOX SYMBOL DEFINITION -->
+    <symbol id="titleSymbol"
+      viewBox="0 0 500 560"
+      preserveAspectRatio="none">
+      <use href="#targetSymbol" width="42px" height="58px" transform="translate(248, 446)" preserveAspectRatio="none" />
+      <g class="shadow" text-anchor="middle" font-family="Courier" font-size="64px" font-weight="800" fill="var(--brush-solid-black)" letter-spacing="4">
+        <text x="250" y="430">SMART</text>
+        <text x="250" y="485">TARGET</text>
+      </g>
+    </symbol>
+    
+  </defs>
+
+  <!-- SYMBOLS DRAWING COMPOSITION -->
+  <use id="viewboxShape" href="#viewboxSymbol" />
+  <use id="targetShape" href="#targetSymbol" />
+  <use id="arrowShape" href="#arrowSymbol" />
+  <use id="titleShape" href="#titleSymbol" />
+  
+</svg>
